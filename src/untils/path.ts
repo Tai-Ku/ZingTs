@@ -1,0 +1,20 @@
+const path: { [key: string]: string } = {
+  PUBLIC: "/*",
+  HOME: "",
+  Login: "login",
+  Follow: "follow",
+  STAR: "*",
+  MY_MUSIC: "mymusic",
+  ALBUM__TITLE_PID: "album/:title/:pid",
+  WEEKRANK__TITLE__PID: "zing-chart-tuan/:title/:pid",
+  PLAYLIST__TITLE_PID: "playlist/:title/:pid",
+  SEARCH_PLAYLIST__TITLE_PID: "bai-hat/:title/:pid",
+  ZING__CHART: "zing-chart",
+  SEARCH: "tim-kiem",
+  PLAYLIST: "playlist",
+  ALL: "tat-ca",
+  SONG: "bai-hat",
+  SINGER: "nghe-si/:name",
+  SINGEROA: ":name",
+};
+export default path;
